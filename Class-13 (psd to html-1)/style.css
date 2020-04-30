@@ -1,0 +1,284 @@
+
+body{
+
+	margin: 0;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.container {
+	margin: auto;
+	width: 60%;
+	//background-color: blue;
+}
+
+/*===========
+Header-part
+*/
+
+.header-area {
+	background-color: #23232e;
+	text-align: center;
+	color: #FFF;
+	padding: 50px 0 20px;
+}
+
+.header-area img {
+	width: 60px;
+}
+
+.header-area h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+	margin: 60px 0 25px;
+	letter-spacing: 2px;
+}
+
+.header-area p {
+	font-size: 12px;
+	padding-bottom: 80px;
+}
+
+.header-area a {
+	color: #FFF;
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	border: 1px solid;
+	line-height: 35px;
+	display: inline-block;
+}
+
+/*=========
+what-i-do area
+============*/
+
+.what-i-do {
+	background: #FFF url(images/white-body.png) 0 0 / cover;
+	padding: 50px 0 50px;
+}
+
+.what-i-do p {
+	color: #464b4f;
+	text-align: center;
+	padding: 10px 150px;
+}
+
+.what-i-do h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #464b4f;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row .col-what-i-do {
+	flex-basis: 33.33%;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+
+.col-what-i-do .pcontent p {
+	padding: 0;
+	text-align: left;
+	color: #888a8b;
+}
+
+.col-what-i-do .pcontent h4 {
+	text-transform: uppercase;
+	color: #464b4f;
+}
+
+/*============
+My Work=========
+*/
+
+.my-work {
+	background-color: #23232e;
+	color: #FFF;
+	padding: 40px 0 30px;
+}
+
+.my-work h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.my-work .main-menu {
+	width: 60%;
+	//background-color: blue;
+	margin: auto;
+}
+
+.main-menu ul {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	padding: 0;
+}
+
+.main-menu ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.main-menu ul li a {
+	color: #FFF;
+	text-transform: capitalize;
+	text-decoration: none;
+	display: inline-block;
+	border: 3px solid transparent;
+	margin: 0 8px;
+	padding-bottom: 3px; 
+}
+
+.main-menu ul li a:hover {
+	border-bottom: 2px solid #7B77C9;
+}
+
+.main-menu ul .active a {
+	border-bottom: 2px solid #7B77C9;
+}
+
+.images img {
+	width: 100%;
+	text-align: center;
+}
+
+.images {
+	text-align: center;
+}
+
+.my-work .row {
+	padding: 20px 0 60px; 
+}
+
+.col-what-i-do .images h4 {
+	margin: 10px 0;
+}
+
+.col-what-i-do .images p {
+	text-transform: capitalize;
+	font-size: 12px;
+}
+
+.btn {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.btn a {
+	background-color: #7b77c9;
+	color: #FFF;
+	padding: 10px 25px;
+	border-radius: 3px;
+	font-size: 15px;
+	text-transform: capitalize;
+	border: 1px solid #7b77c9;
+	text-decoration: none;
+}
+.btn a:hover {
+background-color: #918CEE;
+}
+
+/*============
+Photography=========
+*/
+
+.photography {
+	background: url(images/bg-2.png);
+}
+
+.photography .images {
+	padding-bottom: 10px;
+}
+
+.photography h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	margin: 60px 0 0 20px;
+}
+
+.photography p {
+	color: #888a8b;
+	text-align: center;
+	padding: 10px 150px;
+}
+
+.photography .btn {
+	padding: 50px 0;
+}
+
+/*============
+Subscribe area=========
+*/
+
+
+.subscribe-area {
+	background-color: #23232e;
+	text-align: center;
+	padding: 150px 0;
+	color: #FFF;
+}
+
+.subscribe-area p {
+	font-size: 12px;
+	line-height: 1.7em;
+	padding: 30px;
+}
+
+.subscribe-area input {
+	padding: 8px 25px;
+	border-radius: 5px;
+	font-size: 15px;
+	border: 1px solid;
+}
+
+.subscribe-area input[type="submit"] {
+	background-color: #7B77C9;
+	color: #FFF;
+	border: 1px solid #7B77C9;
+	cursor: pointer;
+}
+
+.subscribe-area input[type="submit"]:hover {
+	background-color: #918CEE;
+}
+
+
+/*============
+Footer area=========
+*/
+
+.footer-area {
+	background-image: url(images/bg-2.png);
+	text-align: center;
+	padding: 40px 0 50px;
+}
+
+.footer-row ul {
+	padding: 0;
+}
+
+.footer-row ul li {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.footer-row ul li a {
+	color: #9f9f9f !important;
+}
+
+.footer-area p {
+	color: #9f9f9f;
+	font-size: 12px;
+	margin: 5px;
+}

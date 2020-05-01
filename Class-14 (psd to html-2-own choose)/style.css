@@ -260,7 +260,7 @@ Footer Area
 }
 
 .footer-area .f-last {
-	padding-top: 120px;
+	padding-top: 100px;
 	color: #FFF;
 }
 
@@ -301,7 +301,9 @@ Footer Area
 	margin-top: 40px;
 }
 
-
+.footer-area .tel {
+	padding-top: 20px;
+}
 
 
 

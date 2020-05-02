@@ -70,6 +70,12 @@ Header Area
 	background-color: #40aed7;
 	cursor: pointer;
 }
+
+.search input[type="submit"]:hover {
+
+	background-color: #6ac7ea;
+}
+
 .navbar ul {
 	float: right;
 	overflow: hidden;
@@ -148,6 +154,12 @@ Main Body
 	border: 1px solid #40aed7;
 	border-radius: 15px;
 	background-color: #40aed7;
+	cursor: pointer;
+}
+
+.body-1 .right button:hover {
+
+	background-color: #6ac7ea;
 }
 
 
@@ -194,6 +206,10 @@ Main Body
 	background-color: #40aed7;
 	text-align: center;
 	cursor: pointer;
+}
+
+.body-2 button:hover {
+	background-color: #6ac7ea;
 }
 
 .body-2 button a {
@@ -257,6 +273,7 @@ Footer Area
 
 .footer-area ul li a i {
 	font-size: 30px;
+	color: #40AED7;
 }
 
 .footer-area .f-last {
@@ -295,6 +312,10 @@ Footer Area
 .footer-area input[type="submit"] {
 	color: #40AED7;
 	cursor: pointer;
+}
+
+.footer-area input[type="submit"]:hover {
+	color: #6ac7ea;
 }
 
 .footer-area .col-1-3 {

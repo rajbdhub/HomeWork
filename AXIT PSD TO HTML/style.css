@@ -122,6 +122,7 @@ Header-img (Area-2)- left side
 
 .header-img input[type="submit"]:hover {
 	background-color: #ff9b51;
+
 }
 
 .header-img h3:after {
@@ -177,6 +178,11 @@ Header-img (Area-2)- right side
 	padding-bottom: 5px;
 	font-size: 18px;
 	color: #bdbdbd;
+}
+
+.manage input:focus {
+	color: #ff9b51;
+	border-bottom: 1px solid #ff9b51;
 }
 
 .header-img .manage p {
@@ -813,6 +819,11 @@ Contact us
 	background-color: #ffab6e;
 }
 
+.contact input:focus {
+	color: #ff9b51;
+	border-bottom: 1px solid #ff9b51;
+}
+
 /*=============
 Footer
 ==============*/
@@ -851,8 +862,11 @@ media quary
 	.header-area .main-nav {
 		float: none;
 	}
-	
 
+	.header-area .col {
+		min-width: 100%;
+	}
+	
 	.header-area .row {
 		max-width: 100%;
 	}
@@ -861,10 +875,17 @@ media quary
 		text-decoration: underline;
 	}
 
-	.header-img .first-1 {
-		text-align: center;
+	.header-area .main-nav ul li a{
+		padding-right: 0
 	}
 
+	.header-area .main-nav ul li {
+		padding-top: 8px;
+	}
+
+	.header-area .main-nav ul li:nth-child(5) a {
+		padding-right: 0px;
+}
 	.header-img h3 {
 		font-size: 20px;
 	}
@@ -882,11 +903,11 @@ media quary
 	
 	.header-img .manage {
 		float: none;
-		max-width: 100%;
+		max-width: 95%;
+		margin-bottom: 5px;
+		margin: 3px auto;
+
 	}
-
-
-
 
 	.social-media {
 		border-bottom: 2px solid #cccccc;
@@ -912,21 +933,91 @@ media quary
 		margin: 0;
 	}
 
-	.social-media .ss1 {
-		float: none;
-		max-width: 100%;
-		margin-top: 100%;
+	.social-media .col {
+		min-width: 100%;
 	}
 
-	.social-media .ss {
+	.container {
 		text-align: center;
-		max-width: 100%;
-		
+		min-width: 100%;
 	}
 
-	.tab .col .tab-1 {
-		flex: none;
+	.tab .col {
+		margin: 60px 0 60px 80px;
+		overflow: hidden;
+		min-width: 100%;
 	}
+
+	.tab .col h5 {
+		color: #000000;
+	}
+
+	.tab .tabb:nth-child(1) {
+		min-width: 100%;
+		padding-top: 15%;
+	}
+
+	.tab .tabb {
+		background-color: #ff9b51;
+		text-align: center;
+		color: #fff;
+		font-weight: bolder;
+		margin: 1px;
+	}
+
+	.tab .tabb:nth-child(2),
+	.tab .tabb:nth-child(3) {
+		background-color: #333333;
+		color: #FFF;
+		font-weight: bolder;
+		min-width: 100%;
+		padding-top: 15%;
+	}
+
+	.tab-1 {
+		min-width: 100%;
+
+	}
+
+	.tab .col {
+		margin-left: 0;
+	}
+
+	.sub-list img {
+		width: 100%;
+	}
+
+	.sub-list .col {
+		min-width: 100%
+	}
+
+	.sub-list h4:after {
+	content: " ";
+	display: block;
+	clear: both;
+	border-bottom: 2.5px solid #ff9b51;
+	width: 80px;
+	position: absolute;
+	top: 103%;
+	left: 38%;
+	padding-top: 10px;
+	}
+
+	.sub-list p {
+		display: block;
+		padding: 0;
+		float: none;
+	}
+	
+	.sub-list h5 {
+		padding-right: 35px;
+	}
+
+	.title-1 .col {
+		//max-width: 80%;
+	}
+
+	
 
 }
 

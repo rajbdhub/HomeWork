@@ -1,0 +1,345 @@
+
+/*Header-area*/
+.header-area {
+    background: url("images/bg.jpg");
+    background-size: cover;
+    height: 650px;
+}
+
+/*Header-content-area*/
+
+.header-content {
+    margin: 60px 0;
+}
+.header-content h1 {
+    margin: 30px 0;
+}
+
+.header-content p {
+    margin: 20px 0;
+    text-align: left;
+    font-size: 14px;
+}
+
+.header-content button {
+    margin: 15px 0 50px 0 ;
+}
+
+/*Nav-area*/
+
+.nav a {
+     color: #000000;
+    transition: .50s;
+}
+
+nav li {
+    cursor: pointer;
+}
+
+.nav li:hover a {
+    color: #ddc1bd;
+}
+
+/*Header-content-button-area*/
+
+.header-content .btn {
+    background: transparent;
+    color: #000000;
+    padding: 7px 20px;
+    border: 1px solid #000000;
+}
+
+.header-content .btn:hover {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.p-5 p {
+    font-size: 12px;
+    color: #9fa2a5;
+}
+
+/*Skill-area*/
+
+.skills {
+    background-color: #e2cfd1;
+    overflow: hidden;
+}
+
+.skill-imgage {
+    float: left;
+}
+
+.skills {
+    margin-right: 0;
+}
+
+.total-skill h2 {
+    margin-bottom: 30px;
+}
+
+/*Professional-area*/
+
+.percentage {
+    padding-bottom: 20px;
+}
+
+.progress-bar {
+    background-color: #dbbfba;
+}
+
+.progress {
+    height: .5rem;
+}
+
+.total-skill {
+    padding: 180px 0;
+}
+
+.image-skill {
+    padding-top: 50px;
+}
+
+.percentage h5 {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.skills {
+    box-sizing: border-box;
+}
+
+/*Project-diagram-area*/
+
+.project-diagram {
+    padding: 100px 0;
+}
+.project-diagram .col-md-3 {
+    overflow: hidden;
+    text-transform: uppercase;
+}
+.project-diagram .content, .icon {
+    float: left;
+}
+.project-diagram h5 {
+    margin: 0;
+    font-weight: bold;
+}
+.project-diagram .icon {
+    margin-right: 18px;
+}
+.project-diagram p {
+    margin: 0;
+    font-size: 12px;
+}
+.project-diagram .fa-3x {
+    color: #dbbfba;
+}
+
+/*Design-image-area*/
+
+.design-image .col-md-3 {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/*Design-image-Overlay effect*/
+
+.design-image .col-md-3 {
+    position: relative;
+}
+.design-image .col-md-3:before{
+    height: 100%;
+    width: 100%;
+    content: "";
+    display: block;
+    clear: both;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: #dbbfba;
+    z-index: 999;
+    opacity: 0;
+    transition: .35s;
+}
+
+.design-image .col-md-3:hover:before {
+    opacity: .8;
+}
+
+/*Overlay effect-End here*/
+
+
+.load-more {
+    background-color: #dbbfba;
+    text-align: center;
+}
+
+.load-more p {
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+/*Work-process-area*/
+
+.work-process p {
+    padding: 10px 0;
+}
+
+/*Kind of work-area*/
+
+.kind-of-work {
+    background-color: #dbbfba;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.kind-of-work .row-2 {
+    margin-top: 90px;
+}
+.kind-of-work h5 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 15px;
+}
+.kind-of-work p {
+    font-size: 12px;
+}
+.kind-of-work i {
+    margin-bottom: 18px;
+}
+
+/*Outstanding-area*/
+
+.slide-image {
+    height: 430px;
+}
+
+.slide-image h5, p {
+    text-transform: ;
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.slide-image .michale {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+/*Five-image-area*/
+
+.five-image {
+    margin: auto;
+}
+
+.five-image {
+    padding: 50px 0;
+}
+
+.five-image .lit-image {
+    display: inline;
+    float: left;
+}
+
+.lit-image:nth-child(1) {
+
+}
+
+.lit-image {
+    margin-left: 80px;
+}
+
+/*Need-project-area*/
+
+.need-project {
+    background-color: #dbbfba;
+}
+
+.need-project p {
+    font-size: 14px;
+}
+
+.need-project h5 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.text-center {
+    width: 60%;
+    margin: auto;
+}
+
+.text-center input, textarea, button {
+    border: 1px solid #000000;
+    margin-bottom: 20px;
+    font-size: 14px;
+    padding: 8px 0;
+    padding-left: 10px;
+    background-color: transparent;
+}
+
+.text-center input, textarea {
+    width: 100%;
+}
+
+.text-center input:nth-child(1) {
+    width: 48%;
+    padding-left: 10px;
+    float: left;
+}
+
+.text-center input:nth-child(2) {
+    width: 48%;
+    padding-left: 10px;
+    float: right;
+}
+
+.last-form .last-btn {
+    background: transparent;
+    color: #000000;
+    padding: 7px 20px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+
+.last-form .last-btn a {
+    color: #000000;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/*Footer-area*/
+
+.footer {
+    background-color: #62849b;
+    color: #000000;
+}
+
+.footer .footer-p {
+    font-size: 12px;
+}
+
+.footer a {
+    color: #000000;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer .email-phone p {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.footer .email-phone p:nth-child(2) {
+    margin: 0;
+}
+
+.footer h5 {
+    margin: 0;
+}
+
+.footer p {
+    margin: 12px 0;
+}

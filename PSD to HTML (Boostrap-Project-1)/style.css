@@ -139,6 +139,15 @@ nav li {
 
 /*Design-image-area*/
 
+.design-image {
+    overflow: hidden;
+}
+
+.design-image .item {
+    height: 100%;
+}
+
+
 .design-image .col-md-3 {
     box-sizing: border-box;
     padding: 0;
@@ -146,27 +155,6 @@ nav li {
 
 /*Design-image-Overlay effect*/
 
-.design-image .col-md-3 {
-    position: relative;
-}
-.design-image .col-md-3:before{
-    height: 100%;
-    width: 100%;
-    content: "";
-    display: block;
-    clear: both;
-    position: absolute;
-    top: 0%;
-    right: 0%;
-    background-color: #dbbfba;
-    z-index: 999;
-    opacity: 0;
-    transition: .35s;
-}
-
-.design-image .col-md-3:hover:before {
-    opacity: .8;
-}
 
 /*Overlay effect-End here*/
 
@@ -194,9 +182,8 @@ nav li {
     padding: 120px 0;
     text-align: center;
 }
-
-.kind-of-work .row-2 {
-    margin-top: 90px;
+.work-single-item{
+    margin: 10px 0;
 }
 .kind-of-work h5 {
     text-transform: uppercase;
@@ -266,10 +253,6 @@ nav li {
     padding-top: 50px;
 }
 
-.text-center {
-    width: 60%;
-    margin: auto;
-}
 
 .text-center input, textarea, button {
     border: 1px solid #000000;

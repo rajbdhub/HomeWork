@@ -326,3 +326,54 @@ nav li {
 .footer p {
     margin: 12px 0;
 }
+
+/*Media query started*/
+
+@media (max-width: 360px) {
+    .total-skill, .image-skill {
+        width: 100% !important;
+        //float: none;
+        padding: 0;
+    }
+
+    .project-diagram .col-md-3 {
+        overflow: hidden;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .project-diagram .icon {
+        margin-right: 0px;
+    }
+
+    .project-diagram .content, .icon {
+        float: none;
+    }
+
+    .project-diagram {
+        padding: 30px 0;
+    }
+
+    .slide-image {
+        height: 0px;
+    }
+
+    .five-image .col {
+        min-width: 100% !important;
+        text-align: center;
+    }
+
+    .five-image .lit-image {
+        display: inline;
+        float: none;
+        margin-left: 0;
+
+    }
+
+    .five-image .lit-image img {
+        margin-bottom: 25px;
+
+    }
+}
+}

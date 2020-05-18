@@ -1,0 +1,375 @@
+
+/*Header area*/
+
+.header {
+    background-image: url("images/header-bg.jpg");
+    text-align: center;
+    background-size: cover;
+    position: relative;
+    font-family: Rokkitt;
+}
+
+
+.header li a:hover {
+    color: #1abc9c !important;
+    border-bottom: 2px solid #ffffff;
+}
+
+.header a {
+    padding: 0;
+    border: 2px solid transparent;
+    transition: .35s;
+}
+
+.header li {
+    padding-right: 30px;
+}
+
+.nav-link {
+    display: block;
+    padding: 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.header .navbar {
+    color: #E84546;
+    text-transform: uppercase !important;
+    font-family: Quicksand;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.nav-item.active .nav-link {
+    color: #1abc9c !important;
+    border-bottom: 2px solid #ffffff;
+}
+
+/*Header caption area*/
+
+.header-caption {
+    padding: 190px 30px;
+    color: #ffffff;
+    position: relative;
+}
+
+.header-caption h1 {
+    text-transform: uppercase;
+    padding: 3px 30px;
+    display: inline;
+    border-bottom: 2px solid #FFF;
+}
+
+.header-caption p {
+    padding: 10px 0 80px;
+    font-size: 20px;
+    font-family: Quicksand;
+}
+
+.header-caption a {
+    font-size: 20px;
+    padding: 5px 25px;
+    color: #ffffff;
+}
+
+.header-caption .btn {
+    padding: 8px 50px;
+    position: absolute;
+    top: 95%;
+    left: 35%;
+    background-color: #1abc9c;
+    border-radius: unset;
+    box-shadow: 0px 0px 0px 6px rgba(26, 188, 156, .5);
+    cursor: pointer;
+}
+
+.header-caption .btn:hover {
+    background-color: #ffffff;
+    color: #1abc9c;
+}
+
+/*start area*/
+
+#start {
+    padding: 80px 0 0 0;
+    font-family: Quicksand;
+}
+
+#start .start-single p {
+    font-size: 14px;
+    color: #999b9d;
+    text-align: justify;
+}
+
+#start .caption-p {
+    margin-top: 30px;
+    padding: 0 150px 50px;
+}
+
+#start .caption-p p {
+    text-align: justify;
+}
+
+#start .start-single h5 {
+    padding: 20px 0;
+    color: #1ABC9C;
+    text-transform: uppercase;
+}
+
+#start .caption-p h2 {
+     padding: 20px 0;
+     color: #1ABC9C;
+     font-weight: bold;
+     font-size: 50px;
+     text-transform: uppercase;
+ }
+
+#start .start-single i {
+    color: #1ABC9C;
+}
+
+#start .start-single {
+    margin: 0 35px;
+
+}
+
+#start hr {
+    margin-top: 50px;
+}
+
+/*work-me area*/
+
+#about-me {
+    padding: 50px 0;
+}
+
+#about-me .single-img:nth-child(4) {
+    margin-left: 140px;
+}
+
+#about-me .aboutme-button .btn {
+    padding: 8px 50px;
+    background-color: #1abc9c;
+    border-radius: unset;
+    cursor: pointer;
+    margin: 20px;
+}
+
+#about-me .aboutme-button .btn:hover {
+    background-color: #ffffff;
+    color: #1abc9c;
+}
+
+#about-me .single-img1 {
+    cursor: pointer;
+}
+
+#about-me .single-img1, .single-img {
+    margin-bottom: 70px;
+}
+
+#about-me .single-img {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#about-me .single-img:after {
+    position: absolute;
+    content: " ";
+    display: block;
+    clear: both;
+    width: 400px;
+    height: 300px;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(227, 130, 121, .4);
+}
+
+#about-me .single-img:hover:after {
+    visibility: hidden;
+    transition: .25s;
+}
+
+#about-me .single-img .ibutton i {
+    position: absolute;
+    top: -15%;
+    left: 60%;
+    background-color: #1abc9c;
+    padding: 10px 10px;
+    color: #ffffff;
+    box-shadow: 0px 0px 2px 6px rgba(26, 188, 156, .5);
+    transition: .35s;
+}
+
+#about-me .col-md-5 {
+    margin-left: 22px;
+}
+
+#about-me .single-img:hover .ibutton i {
+    top: 10%;
+}
+
+#about-me .single-img .ibutton h3 {
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    color: #ffffff;
+    width: 75%;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .35s;
+}
+
+#about-me .single-img:hover .ibutton h3 {
+    top: 80%;
+}
+
+#about-me .single-img:before {
+    position: absolute;
+    content: " ";
+    display: block;
+    clear: both;
+    width: 400px;
+    height: 80px;
+    top: 102%;
+    left: 0%;
+    background-color: #1abc9c;
+    box-shadow: -5px -2px 2px 6px rgba(26, 188, 156, .5);
+    transition: .35s;
+}
+
+#about-me .single-img:hover:before {
+    top: 75%;
+}
+
+#about-me .aboutme-button a {
+    font-size: 20px;
+}
+
+#about-me .aboutme-button i {
+    padding-left: 12px;
+}
+
+#about-me .aboutme-button .btn, a {
+    color: #ffffff;
+    font-family: Rokkitt;
+}
+
+#about-me .aboutme-button .btn {
+    border: 1px solid transparent;
+    transition: .7s;
+}
+
+#about-me .btn:hover {
+    color: #1abc9c;
+    border: 1px solid #1abc9c;
+
+}
+
+#about-me hr {
+    margin-top: 50px;
+}
+
+/*contact-area*/
+
+#contact {
+    padding: 30px 0;
+    font-family: Rokkitt;
+}
+
+#contact h2 {
+    text-align: center;
+    color: #1abc9c;
+    font-size: 50px;
+}
+
+#contact input {
+    margin: 20px 0;
+    padding: 30px 20px;
+    font-size: 25px;
+    background-color: #e4e8e8;
+}
+
+#contact textarea {
+    margin: 15px 0 100px 0;
+    padding: 30px 20px;
+    font-size: 25px;
+    background-color: #e4e8e8;
+    position: relative;
+}
+
+#contact ::placeholder {
+    color: #cecece;
+}
+
+#contact i {
+    background-color: #f6f6f6;
+    padding: 10px 20px;
+    color: #1abc9c;
+    box-shadow: 0px 0px 2px 6px rgba(26, 188, 156, .5);
+    transition: .35s;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #1abc9c;
+    padding: 70px 0;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: Rokkitt;
+}
+
+.footer .p-text1 {
+    float: right;
+}
+
+.footer .p-text1, .p-text {
+    padding-top: 35px;
+}
+
+/*Media quary*/
+
+@media (max-width: 767px) {
+
+    .header-caption h1 {
+        font-size: 30px;
+        padding: 3px 0;
+    }
+
+    #start .caption-p {
+        margin-top: 30px;
+        padding: 0;
+    }
+
+    #contact .row {
+        text-align: left !important;
+    }
+
+    #contact .i-2 {
+        margin-left: 200px;
+    }
+
+    #contact .i-3 {
+        margin-left: 400px;
+    }
+
+    .footer .col-md-6 {
+        width: 50%;
+    }
+
+    .footer {
+        padding: 40px 0;
+    }
+}
+
+
+
+

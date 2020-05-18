@@ -1,0 +1,392 @@
+body {
+    font-family: Roboto;
+}
+/*Header area*/
+
+.header {
+    background-image: url("images/header-bg.jpg");
+    text-align: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.header li a:hover {
+    color: #E84546 !important;
+}
+
+.header .navbar {
+    color: #E84546;
+}
+
+.header .nav-link {
+    display: inline-block;
+}
+
+/*Header caption area*/
+
+.header-caption {
+    padding: 190px 30px;
+}
+
+.header-caption h1 {
+    text-transform: uppercase;
+    padding: 3px 0;
+    color: #FFF;
+    display: inline;
+    border-top: 1px solid #d0d9dd;
+    border-bottom: 1px solid #d0d9dd;
+}
+
+.header-caption p {
+    padding: 10px 0 80px;
+    font-size: 12px;
+    color: #d0d9dd;
+}
+
+.header-caption .btn {
+    background-color: #E84546;
+}
+
+.header-caption a {
+    font-size: 12px;
+    padding: 5px 25px;
+}
+
+
+.header-caption .btn:hover {
+    background-color: #FE5B5C;
+}
+
+/*features area*/
+
+#features {
+    padding: 80px 0 0 0;
+}
+
+#features .feature-item p {
+    font-size: 14px;
+    color: #999b9d;
+}
+
+#features .caption-fe {
+    margin-top: 100px;
+}
+
+#features .caption-fe h6 {
+    padding: 20px 0;
+}
+
+#features .caption-fe a {
+    margin-top: 25px;
+    padding: 5px 50px;
+    font-size: 10px;
+}
+
+/*working process area*/
+
+#working-process {
+    text-align: center;
+    background-color: #f6f6f6;
+    padding: 120px 0;
+}
+
+#working-process .test {
+    padding: 20px 0 30px;
+}
+
+#working-process .test {
+    font-size: 12px;
+}
+
+#working-process [class*="single-item"] {
+    background-color: #6D3ED8;
+    height: 200px;
+    width: 100%;
+}
+
+#working-process .single-item {
+    position: relative;
+    cursor: pointer;
+}
+
+#working-process .single-item:hover .single {
+    color: #DC3545;
+    transition: .5s;
+}
+
+#working-process .single-item .single {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+#working-process .single-item .single h5 {
+    padding-top: 15px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+#working-process .single-item .single {
+    color: #FFF;
+}
+
+/*experience area*/
+
+#experience {
+    background-image: url("images/header-bg.jpg");
+    background-size: cover;
+}
+
+#experience h5, h2 {
+    color: #ffffff;
+    font-weight: normal;
+}
+
+#experience h2 {
+    padding: 50px 0 70px;
+}
+
+#experience h5 {
+    padding-bottom: 10px;
+}
+
+#experience h6 {
+    color: #d7d9de;
+}
+
+#experience p {
+    color: #a2a8b4;
+    font-size: 14px;
+}
+
+#experience .work-experience, .education {
+    background-color: #67647c;
+    margin: 150px 0;
+    padding: 30px 20px;
+}
+
+.h-r {
+    background-color: #a2a8b4;
+}
+
+/*latest-works area*/
+
+#latest-works {
+    text-align: center;
+    background-color: #f6f6f6;
+    padding: 120px 0;
+}
+
+#latest-works .side-1 .main-part {
+    background-color: #6D3ED8;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#latest-works .side-1 .main-part:hover {
+    background-color: #DC3545;
+    transition: .5s;
+
+}
+
+#latest-works .side-1 .main-part-2:hover {
+    background-color: #DC3545;
+    transition: .5s;
+
+}
+
+#latest-works .side-1 .main-part-2 {
+    background-color: #000000;
+    height: 200px;
+    width: 100%;
+    cursor: pointer;
+}
+
+#latest-works .side-1 .col-md-6, .col-md-12 {
+    padding: 5px;
+}
+
+#latest-works .side-1 .main-part, .main-part-2 {
+    margin-bottom: 0;
+}
+
+
+/*testimonials area*/
+
+#testimonials {
+    background-color: #64cbc0;
+    padding: 120px 0;
+}
+
+#testimonials img {
+    padding: 35px 0;
+}
+
+
+/*contact area*/
+
+#contact {
+    background-image: url("images/header-bg.jpg");
+    background-size: cover;
+}
+
+#contact a {
+    margin: 20px 28px;
+    padding: 5px 50px;
+    font-size: 10px;
+    float: right;
+}
+
+#contact input, textarea {
+    width: 90%;
+    margin: 10px 30px;
+    background-color: transparent;
+    font-size: 12px;
+    padding: 10px 10px;
+    color: #E0E6F2;
+    border: 1px solid #B1B7C3;
+}
+
+#contact .message {
+    background-color: #5c657d;
+    margin: 80px 0;
+    height: 550px;
+}
+
+#contact .ad-ph-we {
+    margin: 80px 0;
+    height: 550px;
+}
+
+#contact .message h5 {
+    margin-left: 30px;
+    padding: 30px 0;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+#contact .address, .phone, .web {
+    background-color: #5d657d;
+    height: 183.34px;
+}
+
+#contact .ad-ph-we h5 {
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+#contact .ad-ph-we p {
+    color: #B1B7C3;
+    font-size: 12px;
+}
+
+#contact .ad-ph-we {
+    overflow: hidden;
+}
+
+
+#contact .address, .phone, .web {
+    margin-bottom: 20px;
+    padding: 30px 25px;
+
+}
+
+/*footer area*/
+
+.footer {
+    background-color: #222222;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 30px 0 0 10px;
+    border-right: 1px solid #B1B7C3;
+    padding-right: 12px;
+}
+
+.footer ul {
+    margin: 5px;
+}
+
+.footer p {
+    color: #B1B7C3;
+    font-size: 12px;
+    padding-left: 60px;
+}
+
+.footer ul li a {
+    color: #B1B7C3;
+}
+
+/*media quary*/
+
+@media (max-width: 767px) {
+    .single-item {
+        margin-bottom: 20px;
+    }
+
+    #features .caption-fe a {
+        margin-bottom: 30px;
+    }
+
+    #working-process {
+        padding: 30px 0;
+    }
+
+    #experience .work-experience, .education {
+        background-color: #67647c;
+        margin: 20px 0;
+        padding: 10px 20px;
+    }
+
+    #experience {
+        background-size: cover;
+    }
+
+    #experience h2 {
+        padding: 7px 0 30px;
+    }
+
+    #latest-works .col-md-6 {
+        width: 100%;
+    }
+
+    #latest-works .side-1 .col-md-6 {
+        width: 50%;
+    }
+
+    #latest-works .side-1 .col-md-12 {
+        width: 100%;
+    }
+
+    #latest-works {
+        padding: 30px 0;
+    }
+
+    #testimonials {
+        padding: 30px 0;
+    }
+
+    #contact .message {
+        margin: 30px 0 0 0;
+    }
+
+    #contact {
+        background-size: cover;
+    }
+    #contact .col-sm-12 {
+        padding: 0;
+    }
+
+    #contact .ad-ph-we {
+        margin: 30px 0 20px 0;
+    }
+
+}

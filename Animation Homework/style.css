@@ -9,7 +9,6 @@ textarea {
 	border-radius: 5px;
 	transition: 1s;
 }
-
 form textarea {
 	width: 400px;
 }
@@ -31,5 +30,5 @@ form textarea:focus {
 }
 
 .img-box {
-	
+
 }

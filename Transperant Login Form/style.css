@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    background-size: cover;
+    font-family: Quicksand;
+    background-image: url("https://img.freepik.com/free-vector/natural-green-template_1308-16499.jpg?size=626&ext=jpg");
+}
+
+.login-form img {
+    width: 100px;
+}
+
+.login-form {
+    margin: 30vh auto 0;
+    box-sizing: border-box;
+    width: 400px;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 8px;
+    position: relative;
+    padding: 70px 0;
+}
+
+.login-form img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-form .input-box span {
+    color: #01BFA6;
+    position: absolute;
+    top: 3px;
+    left: 20%;
+}
+
+.login-form h3 {
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, .5);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.login-form .input-box {
+    position: relative;
+}
+
+.login-form .input-box input {
+    padding-left: 25px;
+    background-color: rgba(255, 255, 255, .2);
+    border: 1px solid transparent;
+    margin-bottom: 15px;
+    width: 250px;
+    color: rgba(255, 255, 255, .5);
+}
+
+.login-form .input-box input:focus {
+    background-color: rgba(1, 191, 166, .3);
+}
+
+.login-form input[type="submit"] {
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .2);
+    border: 1px solid transparent;
+    color: rgba(255, 255, 255, .5);
+    transition: .45s;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.login-form input[type="submit"]:hover {
+    color: #01BFA6;
+    background-color: rgba(1, 191, 166, .3);
+}
+
+.login-form a {
+    width: 50%;
+    display: inline-block;
+    color: rgba(255, 255, 255, .5);
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 12px;
+    transition: .45s;
+}
+
+.login-form a:hover {
+    color: #01BFA6;
+}
+
+::placeholder {
+    color: #ffffff;
+    font-size: 12px;
+}

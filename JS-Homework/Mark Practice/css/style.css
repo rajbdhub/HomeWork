@@ -1,0 +1,9 @@
+#me {
+    color: red;
+    display: flex;
+}
+
+#me h6 {
+    margin: 0;
+    padding: 12px 0;
+}

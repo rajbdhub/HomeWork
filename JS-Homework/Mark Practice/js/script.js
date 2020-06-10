@@ -1,3 +1,4 @@
+
 //2nd class practice
 
 /*document.getElementById('me').innerHTML = Date() + '<h6>(Done it)</h6>';
@@ -79,7 +80,9 @@ c = a;
 alert(c);
 */
 
+//---------Result View-----------
 
+/*
 var mark = prompt();
 
 if ((mark <=100) && (mark >=80)) {
@@ -109,11 +112,18 @@ else if ((mark <=49) && (mark >=1)) {
 else {
     alert("Invalid Input!");
 }
+*/
 
 
+//---------Leap Year-----------
 
+var leapYear = prompt();
 
-
+if ((leapYear % 400 == 0) || ((leapYear % 4 == 0) && (leapYear % 100 != 0))) {
+    alert("Yes, It is Leap Year!");
+} else {
+    alert("No, It is not a Leap Year!");
+}
 
 
 

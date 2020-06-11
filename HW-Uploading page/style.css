@@ -70,3 +70,78 @@ span {
 hr {
     margin-top: 0;
 }
+
+@media (max-width: 1159px) {
+    .but i {
+        left: 46.2%;
+        top: 22%;
+    }
+
+@media (max-width: 991px) {
+    .but i {
+        left: 45%;
+        top: 23%;
+    }
+@media (max-width: 767px) {
+    .but i {
+        left: 43%;
+        top: 21%;
+    }
+    .but {
+        margin-top: 60px;
+    }
+    .second-2 {
+        text-align: center;
+    }
+    .uploaded p {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .second i {
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+    }
+}
+}
+}
+@media (max-width: 575px) {
+    .but i {
+        left: 43%;
+        top: 21%;
+    }
+@media (max-width: 470px) {
+    .but i {
+        left: 42%;
+        top: 21%;
+    }
+@media (max-width: 362px) {
+    .but i {
+        left: 40%;
+        top: 21%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

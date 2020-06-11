@@ -1,0 +1,72 @@
+body {
+    background-color: #F5F5FA;
+    font-family: Roboto;
+}
+
+.main {
+    margin: 15% 0;
+}
+
+.container {
+    background-color: #ffffff;
+    height: 250px;
+    color: #676A6D;
+    border-radius: 5px;
+    box-shadow: -1px 3px 5px 1px #eae7e7;
+}
+
+.first {
+    padding: 15px 0 10px 0;
+}
+
+.second {
+    text-align: right;
+    color: #A4A7AA;
+    font-size: 20px;
+}
+
+h5 {
+    text-transform: uppercase;
+}
+
+.but {
+    text-align: center;
+    position: relative;
+}
+.but button {
+    padding: 3px 11px 3px 22px;
+    font-size: 14px;
+    background-color: red;
+}
+
+.but i {
+    position: absolute;
+    top: 23%;
+    left: 46.8%;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.time-left {
+    padding-top: 10px;
+    text-align: center;
+}
+.time-left p {
+    margin-bottom: 5px;
+}
+
+.progress {
+    height: 25px;
+}
+
+span {
+    color: #4CAF50;
+}
+
+.second-2 {
+    text-align: right;
+}
+
+hr {
+    margin-top: 0;
+}

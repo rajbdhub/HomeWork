@@ -1,0 +1,77 @@
+
+h4 {
+    height: 150px;
+    padding: 18% 0 0 22%;
+    color: #ffffff !important;
+}
+
+.hhhhh {
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: red;
+}
+
+
+.ttt {
+    background-color: #F7F8FA;
+    padding: 0 10px;
+    height: 80px;
+}
+
+.btn {
+    margin-top: 30%;
+}
+
+p {
+    padding: 10px 10px;
+    text-align: justify;
+}
+
+.row {
+    margin-right: 23px;
+}
+
+.ddd {
+    margin-right: 45px;
+}
+
+.card {
+    box-sizing: border-box;
+    box-shadow: 1px 1px 6px 1px rgba(0,0,0,.125);
+    border: 1px solid rgba(0,0,0,.0) !important;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.card:before {
+    content: "1.0.0";
+    clear: both;
+    position: absolute;
+    top: 10px;
+    left: 75%;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 2px 15px;
+    border-radius: 20px;
+}
+
+i {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

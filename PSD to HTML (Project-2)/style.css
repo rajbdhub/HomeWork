@@ -1,4 +1,48 @@
 
+/*Body Color Change*/
+
+.body-color-maindiv {
+    position: fixed;
+    top: 40%;
+    right: -5%;
+    width: 70px;
+    height: 40px;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 2px;
+    z-index: 99999;
+    transition: .50s;
+}
+
+.body-color-dark, .body-color-light {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70px;
+    height: 40px;
+    background-color: #F8EFBA;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.showpanel {
+    right: 0;
+}
+
+.control-panel {
+    position: absolute;
+    top: 10%;
+    right: 100%;
+    cursor: pointer;
+    font-size: 25px;
+    z-index: 99999;
+    color: #E84546;
+}
+
+.dark h6, .light h6 {
+    padding: 10px 0 0 15px;
+}
+
 /*Header area*/
 
 .header {
@@ -231,31 +275,31 @@
 
 /*footer area*/
 
-.footer {
+#contact {
     background-color: #2F304C;
     padding: 40px 0;
 }
 
-.footer .footer-item h5 {
+#contact .footer-item h5 {
     color: #fff;
     text-transform: uppercase;
     font-size: 15px;
 }
 
-.footer .footer-item p {
+#contact .footer-item p {
     color: #D2D2D2;
     font-size: 12px;
 }
 
-.footer .footer-item ul li {
+#contact .footer-item ul li {
     display: inline-block;
 }
 
-.footer .footer-item ul {
+#contact .footer-item ul {
     padding: 10px 0 0 0;
 }
 
-.footer .footer-item a {
+#contact .footer-item a {
     color: #fff;
     text-transform: uppercase;
     border: 1px solid #FFF;
@@ -284,4 +328,12 @@
 
 .footer-lastpart p:nth-child(2) {
     color: #FFF;
+}
+
+.footer-item ul li {
+    transition: .35s;
+}
+
+.footer-item ul li:hover {
+    background-color: #dc3545;
 }

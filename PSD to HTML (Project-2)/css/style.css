@@ -1,0 +1,13 @@
+body {
+    margin:  0;
+}
+
+img {
+    width: 200px;
+    margin-right: 10px;
+    height: 200px;
+}
+
+.me {
+    display: flex;
+}

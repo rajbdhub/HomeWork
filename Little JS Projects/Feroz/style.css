@@ -1,0 +1,43 @@
+body {
+    background-image: url("https://image.freepik.com/free-photo/old-grunge-cement-wall-backgrounds_34552-195.jpg");
+}
+
+h3 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.mainform {
+    display: block;
+    text-align: center;
+
+}
+
+form {
+    display: inline-block;
+    margin: auto;
+    text-align: left;
+    color: white;
+}
+
+.mainn {
+    transform: translateY(50%);
+}
+
+h1 {
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.btn {
+    color: #ffffff;
+    border: 1px solid transparent;
+    margin-top: 50px;
+}
+
+h5 {
+    color: white;
+    margin-top: 20px;
+
+}
